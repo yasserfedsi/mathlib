@@ -19,5 +19,9 @@ def test_divide():
 
 
 def test_divide_by_zero():
-    with pytest.raises(ValueError):
+    with pytest.raises(ValueError, match="Zero division is not allowed"):
         divide(10, 0)
+
+
+def test_dividend_zero():
+    divide(0, 10) == 0
