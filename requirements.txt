@@ -1,7 +1,9 @@
 colorama==0.4.6
 iniconfig==2.3.0
--e git+ssh://git@github.com/yasserfedsi/mathlib.git@177275b9e7df32b9e44286f190ee132d02d07e27#egg=mathlib
+-e git+ssh://git@github.com/yasserfedsi/mathlib.git@b09901c78d16b2aff3fee8833023ed1a00ce551e#egg=mathlib
 packaging==26.0
 pluggy==1.6.0
 Pygments==2.19.2
 pytest==9.0.2
+setuptools==80.10.2
+wheel==0.46.3
