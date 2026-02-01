@@ -1,7 +1,7 @@
-from mathlib import calculate
+from mathlib import Calculator
 import pytest
 
-calc = calculate.Calculator()
+calc = Calculator()
 
 
 def test_invalid_input():
