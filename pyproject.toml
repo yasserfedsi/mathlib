@@ -18,4 +18,5 @@ dev = ["pytest"]
 testpaths = ["tests"]
 
 [tool.setuptools.packages.find]
+where = ["."]
 include = ["mathlib"]
