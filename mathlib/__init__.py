@@ -1,3 +1,2 @@
-from .basic import add, subtract, multiply, divide
-
-__all__ = ["add", "sbtract", "multiply", "divide"]
+from .calculate import Calculator
+__all__ = ["Calculator"]
