@@ -11,7 +11,6 @@ jaraco.context==6.1.0
 jaraco.functools==4.4.0
 keyring==25.7.0
 markdown-it-py==4.0.0
--e git+ssh://git@github.com/yasserfedsi/mathlib.git@9e6306867ad18f0fdc91e0c38812d5d188c15bd5#egg=mathlib
 mdurl==0.1.2
 more-itertools==10.8.0
 nh3==0.3.2
