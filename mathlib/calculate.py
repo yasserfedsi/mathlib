@@ -1,4 +1,4 @@
-from .utils import to_number
+from .utils.convert_to_num import to_number
 class Calculator:
     """Arithmetic calculator supporting int, float, and numeric strings."""
 
