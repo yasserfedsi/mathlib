@@ -1,2 +1,4 @@
 from .calculate import Calculator
-__all__ = ["Calculator"]
+from .vector import Vector
+
+__all__ = ["Calculator", "Vector"]
